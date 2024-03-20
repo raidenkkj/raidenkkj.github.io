@@ -98,30 +98,29 @@ header {
 }
 
 .button {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 10px 0;
-	padding: 10px 20px;
-	border: 1px solid rgba(255, 255, 255, 0.25);
-	border-radius: 15px;
-	background-color: rgba(255, 255, 255, 0.3);
-	text-decoration: none;
-	width: 200px;
-	text-align: center;
-	color: #333;
-	transition: background-color 0.3s, box-shadow 0.3s;
-	-webkit-tap-highlight-color: transparent;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    color: #333;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
-.button:hover,
-.button:active {
-	background-color: rgba(255, 255, 255, 0.5);
-	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
-	outline: none;
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    outline: none;
 }
 
 .hero {
