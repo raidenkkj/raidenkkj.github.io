@@ -1,229 +1,87 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth text-sm md:text-base">
-
+<html lang="pt-br">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="output.css" />
-    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
-	<title>Raiden Tweaks</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>raidenprjkts | homepage</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
   </head>
-  <body class="font-ambit">
-    <!-- navigation menu -->
-    <nav class="container">
-      <div class="py-12 align-middle">
-        <div class="flex place-content-between items-center">
-          <!-- logo -->
-            <div>
-        <h1 class="text-4xl font-black uppercase mb-2">Raiden Tweaks</h1>
-        <h2 class="text-lg">A simple kernel tweaker.</h2>
-      </div>
-          <!-- links -->
-     
-          <!-- mobile menu -->
-          <a class="md:hidden" href="#footer">
-            <img src="./images/hrt.png" alt="mobile menu"
-			/></a>
-        </div>
-      </div>
-    </nav>
-
-    <!-- hero section -->
-    <div class="py-12 align-middle relative">
-      <div class="container">
-        <div
-          class="flex flex-col-reverse place-content-between place-items-center text-center md:flex-row md:text-left"
-        >
-          <div class="md:max-w-xl">
-            <h2 class="text-5xl leading-tight font-black uppercase">
-              Ready for changes? 
-            </h2>
-            <p class="text-lg my-10">
-              Raiden Tweaks™ is a kernel manager with several profiles applicable to each type of user, its main focus is to improve your user experience.
-            </p>
-            <!-- join community button -->
-
-
-         
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo-card">
+          <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+            <div class="logo-text">raidenprjkts.</div>
           </div>
-          <!-- right hero image -->
-          <img src="./images/hero-image.png" alt="hero image" />
-        </div>
-      </div>
-
-    </div>
-              <!-- right chagelog image -->
-     <div class="py-12 align-middle relative">
-      <div class="container">
-        <div
-          class="flex flex-col-reverse place-content-between place-items-center text-center md:flex-row md:text-left"
-        >
-          <div class="md:max-w-xl">
-            <h2 class="text-5xl leading-tight font-black uppercase">
-              ChangeLogs
-            </h2>
-            <p class="text-lg my-10">
-             Latest changelogs
-            </p>
-            <!-- join community button -->
-              <a href="./pages/changes.html"
-              >
-                  <button
-                      type="button"
-                      class="uppercase outline text-lg font-bold px-6 py-4 bg-custom-pink text-white rounded-lg outline-[3px] outline-custom-pink mb-6 md:mr-6 md:mb-0"
-              >
-                CHeck Here
-              </button></a
-            >
-
-
-
-
-    
-    
-    
-    
-    
-    
-    
- <div class="py-12 align-middle relative">
-      <div class="container">
-        <div
-          class="flex flex-col-reverse place-content-between place-items-center text-center md:flex-row md:text-left"
-        >
-          <div class="md:max-w-xl">
-            <h2 class="text-5xl leading-tight font-black uppercase">
-              You need help!?
-            </h2>
-            <p class="text-lg my-10">
-              In the raiden prjkts group you will receive the proper support to solve your problems.
-            </p>
-            <!-- join community button -->
-            <a href="https://telegram.me/weebo_setup"
-			><button
-                type="button"
-                class="uppercase outline text-lg font-bold px-6 py-4 bg-custom-pink text-white rounded-lg outline-[3px] outline-custom-pink mb-6 md:mr-6 md:mb-0"
-              >
-                Support
-              </button></a
-            >
-
-
-
+          <div class="menu-icon" onclick="openPopup()">
+            <img src="img/menu.png" alt="Menu">
           </div>
-          <!-- right hero image -->
-          <img src="./images/feature4.png" alt="hero image" />
+      </header>
+      <div id="popup" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup()">&times;</span>
+          <p>This function is not yet available on this version of the website. It will be included in a future update.</p>
         </div>
       </div>
-
-    </div>
-    
-    
-    
-    
-
-    
-
-	
-
-
-    <!-- stats section -->
-	<div class="py-12 align-middle relative">
-
-	  <img class="mt-11 mb-16" src="./images/feature6.png" alt="" />
-	  <div class="container">
-		<div
-		  class="flex flex-col-reverse place-content-between place-items-center text-center md:flex-row md:text-left"
-		>
-		  
-		  <a href="./pages/mirror.html"
-		  ><button
-			  type="button"
-			  class="uppercase outline text-lg font-bold px-6 py-4 bg-custom-pink text-white rounded-lg outline-[3px] outline-custom-pink mb-6 md:mr-6 md:mb-0"
-			>
-			  Mirror
-			</button></a
-		  >
-		  <a href="https://www.pling.com/p/1684224/"
-		  ><button
-			  type="button"
-			  class="uppercase outline text-lg font-bold px-6 py-4 bg-custom-pink text-white rounded-lg outline-[3px] outline-custom-pink mb-6 md:mr-6 md:mb-0"
-			>
-			  Download
-			</button></a
-		  >
-		  <div class="md:max-w-xl">
-			<h2 class="text-5xl leading-tight font-black uppercase">
-
-			</h2>
-			<p class="text-lg my-10">
-			Download Your Custom Clocks Now
-
-
-		  </div>
-		</div>
-	  </div>
-
-    </div>
-	
-	
-	  
-	<!-- right hero image -->
-	
-	  
-
-
-
-	  
-<div class="py-12 align-middle relative">
-
-        <img class="mt-11 mb-16" src="./images/member2.png" alt="" />
-		<div class="container">
-		  <div
-			class="flex flex-col-reverse place-content-between place-items-center text-center md:flex-row md:text-left"
-		  >
-			<div class="md:max-w-xl">
-			  <h2 class="text-5xl leading-tight font-black uppercase">
-				 
-			  </h2>
-			  <p class="text-lg my-10">
-              Contact me for More details
-			  <!-- join community button -->
-			
-			</div>
-       <a href="https://telegra.ph/Credits-07-19"
-			><button
-                type="button"
-                class="uppercase outline text-lg font-bold px-6 py-4 bg-custom-pink text-white rounded-lg outline-[3px] outline-custom-pink mb-6 md:mr-6 md:mb-0"
-              >
-                Credits
-              </button></a
-            >
-       <a href="https://telegram.me/hyp3r_sh"
-			><button
-                type="button"
-                class="uppercase outline text-lg font-bold px-6 py-4 bg-custom-pink text-white rounded-lg outline-[3px] outline-custom-pink mb-6 md:mr-6 md:mb-0"
-              >
-                Maintainer
-              </button></a
-            >
-	  
-	</div>
-	</div>
-
-    </div>
-
-    <!-- footer -->
-    <footer id="footer" class="container flex place-content-between py-20">
-      <!-- footer logo -->
-      <div>
-        <h1 class="text-4xl font-black uppercase mb-2">©RAIDEN && ©REI🌸</h1>
-        <h2 class="text-lg">Raiden Tweakss</h2>
+      <section class="hero">
+        <div id="bg-wrap">
+          <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <radialGradient id="Gradient1" cx="50%" cy="50%" fx="0.441602%" fy="50%" r=".5"><animate attributeName="fx" dur="34s" values="0%;3%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(255, 0, 255, 1)"></stop><stop offset="100%" stop-color="rgba(255, 0, 255, 0)"></stop></radialGradient>
+              <radialGradient id="Gradient2" cx="50%" cy="50%" fx="2.68147%" fy="50%" r=".5">
+                <animate attributeName="fx" dur="23.5s" values="0%;3%;0%" repeatCount="indefinite"></animate>
+                <stop offset="0%" stop-color="rgba(255, 105, 180, 1)"></stop>
+                <stop offset="100%" stop-color="rgba(255, 105, 180, 0)"></stop>
+              </radialGradient>
+              <radialGradient id="Gradient3" cx="50%" cy="50%" fx="0.836536%" fy="50%" r=".5"><animate attributeName="fx" dur="21.5s" values="0%;3%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(0, 255, 255, 1)"></stop><stop offset="100%" stop-color="rgba(0, 255, 255, 0)"></stop></radialGradient>
+              <radialGradient id="Gradient4" cx="50%" cy="50%" fx="4.56417%" fy="50%" r=".5"><animate attributeName="fx" dur="23s" values="0%;5%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(0, 255, 0, 1)"></stop><stop offset="100%" stop-color="rgba(0, 255, 0, 0)"></stop></radialGradient>
+              <radialGradient id="Gradient5" cx="50%" cy="50%" fx="2.65405%" fy="50%" r=".5"><animate attributeName="fx" dur="24.5s" values="0%;5%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(0,0,255, 1)"></stop><stop offset="100%" stop-color="rgba(0,0,255, 0)"></stop></radialGradient>
+              <radialGradient id="Gradient6" cx="50%" cy="50%" fx="0.981338%" fy="50%" r=".5"><animate attributeName="fx" dur="25.5s" values="0%;5%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(255,0,0, 1)"></stop><stop offset="100%" stop-color="rgba(255,0,0, 0)"></stop></radialGradient>
+            </defs>
+            <rect x="0" y="0" width="100%" height="100%" fill="url(#Gradient5)">
+              <animate attributeName="x" dur="23s" values="0%;-25%;0%" repeatCount="indefinite" />
+              <animate attributeName="y" dur="24s" values="25%;-25%;25%" repeatCount="indefinite" />
+              <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="18s" repeatCount="indefinite"/>
+            </rect>
+            <rect x="0" y="0" width="100%" height="100%" fill="url(#Gradient6)">
+              <animate attributeName="x" dur="25s" values="-25%;0%;-25%" repeatCount="indefinite" />
+              <animate attributeName="y" dur="26s" values="0%;-25%;0%" repeatCount="indefinite" />
+              <animateTransform attributeName="transform" type="rotate" from="360 50 50" to="0 50 50" dur="19s" repeatCount="indefinite"/>
+            </rect>
+            <rect x="13.744%" y="1.18473%" width="100%" height="100%" fill="url(#Gradient1)" transform="rotate(334.41 50 50)"><animate attributeName="x" dur="20s" values="25%;0%;25%" repeatCount="indefinite"></animate><animate attributeName="y" dur="21s" values="0%;25%;0%" repeatCount="indefinite"></animate><animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="7s" repeatCount="indefinite"></animateTransform></rect>
+            <rect x="-2.17916%" y="35.4267%" width="100%" height="100%" fill="url(#Gradient2)" transform="rotate(255.072 50 50)"><animate attributeName="x" dur="23s" values="-25%;0%;-25%" repeatCount="indefinite"></animate><animate attributeName="y" dur="24s" values="0%;50%;0%" repeatCount="indefinite"></animate><animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="12s" repeatCount="indefinite"></animateTransform>
+            </rect>
+            <rect x="9.00483%" y="14.5733%" width="100%" height="100%" fill="url(#Gradient3)" transform="rotate(139.903 50 50)"><animate attributeName="x" dur="25s" values="0%;25%;0%" repeatCount="indefinite"></animate><animate attributeName="y" dur="12s" values="0%;25%;0%" repeatCount="indefinite"></animate><animateTransform attributeName="transform" type="rotate" from="360 50 50" to="0 50 50" dur="9s" repeatCount="indefinite"></animateTransform>
+            </rect>
+          </svg>          
+        </div>
+        <div class="card">
+          <h1>Welcome to raidenprjkts home page!</h1>
+          <p>Here you will find everything you need.</p>
+          <div class="buttons">
+            <a href="https://www.pling.com/p/1597979" class="button"><img class="icon" src="img/web.png" alt="web_icon1"> raidenTweaks</a>
+            <a href="https://www.pling.com/p/1996119/" class="button"><img class="icon" src="img/web.png" alt="web_icon2"> iKCAL</a>
+            <a href="#" class="button" onclick="openSourcesPopup()"><img class="icon" src="img/github.png" alt="github_icon1"> Sources</a>
+            <a href="https://t.me/raidenprjkts" class="button"><img class="icon" src="img/telegram.png" alt="telegram_icon1"> Telegram Channel</a>
+            <a href="https://t.me/raidenprjktsgroup" class="button"><img class="icon" src="img/telegram.png" alt="telegram_icon1"> Telegram Group</a>
+          </div>
+        </div>  
+      </section>
+      <footer>
+        <p>&copy; 2024 raidenprjkts. All rights reserved.</p>
+      </footer>
+      <div id="sources-popup" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closeSourcesPopup()">&times;</span>
+          <p>Choose which source you want to see:</p>
+          <div class="buttons">
+            <a href="https://github.com/raidenkkj/raidenTweaks" class="button"><img class="icon" src="img/github.png" alt="github_icon2"> raidenTweaks</a>
+            <a href="https://github.com/raidenkkj/iKCAL" class="button"><img class="icon" src="img/github.png" alt="github_icon3"> iKCAL</a>
+          </div>
+        </div>
       </div>
-      <div class="flex flex-col md:flex-row">
-
-      </div>
-    </footer>
+      <script src="js/script.js"></script>
   </body>
-</html>    
+</html>
